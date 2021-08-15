@@ -1,0 +1,115 @@
+.credit-card{
+position: absolute;
+z-index: 18;
+left:500px;
+padding-bottom: 25px;
+}
+
+
+#PaymentForm{
+position: absolute;
+max-width: 400px;
+margin: auto;
+border: thin solid;
+border-color: white;
+background: white;
+border-radius: 4px;
+height: 400px;
+margin-left: 450px;
+margin-top: 40px;
+
+}
+
+.cardform{
+   margin: 40px;
+   margin-top: 180px;
+ 
+}
+
+.card-number{
+display: flex;
+flex-direction: column;
+max-width: 350px;
+margin-top: 15px;
+}
+
+.card-number-label{
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.card--number{
+    max-width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    border-width: thin;
+   border-color: rgb(29, 36, 39);
+}
+
+.card-holder{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin-top:15px;
+}
+
+.card-name-label{
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.card--holder{
+    max-width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    border-width: thin;
+   border-color: rgb(29, 36, 39);
+  
+}
+
+
+.expiry-cvv{
+display: flex;
+flex-direction: row;
+margin-top: 15px;
+}
+
+.expiry-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.expiry-label{
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: 2px;
+    max-width: fit-content;
+}
+
+.expiry-input{
+    max-width: 130px;
+    height: 30px;
+    border-radius: 3px;
+    border-width: thin;
+}
+
+.card-cvv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+}
+
+.label-cvv{
+    font-size: small;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.input-cvv{
+    max-width: 130px;
+    height: 30px;
+    border-radius: 3px;
+    border-width: thin;
+}
